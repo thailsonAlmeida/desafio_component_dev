@@ -1,7 +1,7 @@
 export default function Header(){
     return (
         <header>
-            <nav className="container">
+            <nav>
                 <h1>Carros Top</h1>
             </nav>            
         </header>

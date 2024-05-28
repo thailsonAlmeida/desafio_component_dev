@@ -1,0 +1,11 @@
+.catalog-cad-container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+}
+
+.container-main{
+    padding: 0 20px 20px;
+
+}
+
