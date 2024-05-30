@@ -1,11 +1,26 @@
 .catalog-cad-container{
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+    display: flexbox;    
 }
 
-.container-main{
-    padding: 0 20px 20px;
 
+.container-main h2{
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--color-txt-primary);
 }
+
+.faq{
+    background-color: var(--color-bg-tertiary);
+    margin-top: 30px;
+    padding: 25px;
+}
+
+@media (max-width: 320px){
+    .container-main h2{
+        font-size: 20px;
+    }
+}
+
 

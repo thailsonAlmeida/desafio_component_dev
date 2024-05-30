@@ -1,0 +1,12 @@
+.container-coments{
+    max-width: 918px;
+    margin: 25px auto;
+    height: 74;
+
+    background-color: var(--color-bg-secundary);
+    border: 1px solid var(--color-txt-tertiary);
+    border-radius: 12px;
+    padding: 25px 20px;
+
+    color: var(--color-txt-tertiary);
+}
